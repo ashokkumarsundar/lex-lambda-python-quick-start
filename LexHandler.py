@@ -6,7 +6,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 
-class LexEvent:
+class LexHandler:
     """handles incoming and outgoing params to Lex and validates slots"""
 
     def __init__(self, event):
