@@ -20,7 +20,7 @@ def dispatch(lex):
 
 
 def lambda_handler(event, context=None):
-    lex = LexEvent(event)
+    lex = LexHandler(event)
     logger.info(('IN', event))
 
     try:
