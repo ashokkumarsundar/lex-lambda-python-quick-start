@@ -1,5 +1,5 @@
 import logging
-import LexHandler from LexHandler
+from LexHandler import LexHandler
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
